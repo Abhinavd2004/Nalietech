@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 10px; /* Add padding to create some space around the container */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-right:200px; /* Add some space between the navbar and the search bar */
+}
+
+.navbar .nav-icon {
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.search-bar {
+    width: 900px; /* Increase this value to make the search bar longer */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.main-navbar {
+    display: flex;
+    background-color: #023859;
+    justify-content: space-around;
+    padding: 14px 0;
+    font-size:20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+.nav-link:hover {
+    /* background-color: rgb(218, 239, 112); */
+    color:black;
+}
+#login-register {
+    padding:10px;
+    background-color:green;
+    border:solid black 1px;
+    border-radius:10%;
+}
+#login-register:hover {
+    background-color: #023859;
+}
+#logo{
+    padding:10px;
+    background-color:green;
+    border:solid black 1px;
+    border-radius:20%;
+}
+#logo:hover {
+    background-color: #023859;
+}
+.courses {
+    margin-top:20px;
+    font-size:45px;
+    height:500px;
+    width:700px;
+    background-color:rgb(53, 161, 208);
+    color:black;
+    border:solid black 2px;
+    align-items:center;
+    text-align: center;
+    margin-left:13px;
+
+}
+.new {
+    display:flex;
+}
+.Dynamic{
+    display:block;
+    margin-top:20px;
+    font-size:45px;
+    height:600px;
+    padding:10px;
+    width:570px;
+    background-color:rgb(243, 185, 242);
+    color:black;
+    border:solid black 2px;
+    align-items:center;
+    text-align: center;
+    margin-left:13px;
+    flex-direction: column;
+}
+.platforms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    margin-left:20px;
+    margin-top:20px;
+}
+.vertical-button {
+    writing-mode: vertical-lr; /* Makes text vertical */
+    text-align: center;
+    margin: 40px;/* Space between buttons */
+    padding: 10px;
+    background-color: white;/* Button color */
+    color:black; /* Text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.vertical-button:hover {
+   background-color: rgb(61, 122, 220);
+}
+.end {
+    background-color: rgb(65, 65, 230);
+    color:aliceblue;
+    padding:5px;
+}
+#find-courses {
+    background-color:green;
+    color:black;
+    margin-left:10px;
+    height:50px;
+    width:100px;
+    border-radius:8%;
+    font-size:17px;
+}
+@media (max-width: 768px) {
+    .navbar {
+        margin-right: 10px; /* Reduce the space on smaller screens */
+    }
+    
+    .search-bar {
+        width: 100%; /* Full width on smaller screens */
+    }
+
+    .main-navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link {
+        padding: 10px;
+    }
+
+    .courses, .Dynamic {
+        width: 100%;
+        margin-left: 0;
+        font-size: 30px; /* Adjust font size on smaller screens */
+    }
+
+    .platforms {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .find-courses {
+        margin-left: 0;
+        margin-top: 20px; /* Adjust position on smaller screens */
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-icon {
+        font-size: 16px; /* Reduce icon size on smaller screens */
+    }
+
+    #find-courses {
+        height: 40px;
+        width: 120px; /* Adjust size on smaller screens */
+    }
+}
+#img1:hover {
+    opacity:0.5;
+    cursor: pointer;
+}
+#img2:hover {
+    opacity:0.5;
+    cursor: pointer;
+}
+#img3:hover {
+    opacity:0.5;
+    cursor: pointer;
+}
+#img4:hover {
+    opacity:0.5;
+    cursor: pointer;
+}
+.icon:hover{
+    opacity:0.5;
+    cursor: pointer;
+}
